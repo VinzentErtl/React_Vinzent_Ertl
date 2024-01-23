@@ -1,12 +1,13 @@
 import "./App.css";
 import Card from "./components/Card";
-import Comp from "./components/Comp";
+import First from "./components/First";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div >
-      <Comp/>
-      <Card/>
+      <Home/>
+      
     </div>
   );
 }
