@@ -1,14 +1,24 @@
 import "./App.css";
-import Card from "./components/Card";
-import First from "./components/First";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Home from "./pages/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/Hola",
+    element: <div> Hola</div>,
+  },
+]);
 
 function App() {
   return (
-    <div >
-      <Home/>
-      
-    </div>
+    <RouterProvider router={router} />
   );
 }
 
