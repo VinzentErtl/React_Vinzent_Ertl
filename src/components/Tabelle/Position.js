@@ -12,6 +12,7 @@ export default function Position() {
             <h3>FC RedBull Salzburg</h3>
             <h4>41</h4>
             </div>
+            
             <div className='w-[26rem] border-solid border border-black p-2.5 flex items-center bg-gray-400 justify-between flex-row'>
               <h1>7</h1>
               <h2><img
